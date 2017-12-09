@@ -13,6 +13,22 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+      <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">About Natours</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Your benefits</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Book now</a></li>
+          </ul>
+        </nav>
+      </div>
       <header class="header">
         <div class="header__logo-box">
           <img src="img/logo-white.png" alt="Logo" class="header__logo" />
@@ -334,11 +350,11 @@
           <div class="col-1-of-2">
             <div class="footer__navigation">
               <ul class="footer__list">
-                <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                <li class="footer__item"><span>01</span><a href="#" class="footer__link">Company</a></li>
+                <li class="footer__item"><a href="#" class="footer__link"><span>02</span>Contact Us</a></li>
+                <li class="footer__item"><a href="#" class="footer__link"><span>03</span>Careers</a></li>
+                <li class="footer__item"><a href="#" class="footer__link"><span>04</span>Privacy Policy</a></li>
+                <li class="footer__item"><a href="#" class="footer__link"><span>05</span>Terms</a></li>
               </ul>
             </div>
           </div>
@@ -349,6 +365,23 @@
           </div>
         </div>
       </footer>
+
+      <div class="popup">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img src="img/nat-8.jpg" alt="Tour photo" class="popup_img"/>
+            <img src="img/nat-9.jpg" alt="Tour photo" class="popup_img"/>
+          </div>
+          <div class="popup__right">
+            <h2 class="heading-secondary">Start booking now</h2>
+            <h3 class="heading-tertiary">Important &ndash; Please read these terms before booking</h3>
+            <p class="popup__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea excepturi perspiciatis sed eius temporibus saepe maiores quos, reiciendis dolore sunt quas in inventore. Distinctio earum ipsum sed, itaque excepturi at.
+            </p>
+            <a href="#" class="btn btn--green">Book now</a>
+          </div>
+        </div>
+      </div>
 
 
       <!--
